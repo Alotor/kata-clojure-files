@@ -1,5 +1,5 @@
 (ns file.services)
 
-(defn ^:dynamic get-files [dir] )
-(defn ^:dynamic remove-file [file] )
+(defn get-files [dir] (throw (Exception. "Not Implemented yet")))
+(defn remove-file [file] (throw (Exception. "Not Implemented yet")))
 

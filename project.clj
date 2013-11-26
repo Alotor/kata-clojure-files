@@ -7,9 +7,6 @@
 
   :dependencies
     [[org.clojure/clojure "1.5.1"]
-     [org.clojure/clojure-contrib "1.2.0"]
-     [speclj "2.8.1"]]
+     [midje "1.5.1"]]
 
-  :plugins [[speclj "2.8.1"]]
-  :test-paths ["spec"]
-  :main file.main/main)
+  :plugins [[lein-midje "3.1.1"]])
